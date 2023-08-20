@@ -23,7 +23,7 @@ export default function Home() {
 
   }
 
-  //For calling it once, we need to use empty array
+  //For calling it once, we have to use empty array
   useEffect(() => {
     loadData()
   }, []);
